@@ -1,0 +1,192 @@
+body {
+    
+  
+    background-color:#F6F6F6; 
+    font-family: Roboto, sans-serif;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .container {
+    box-shadow: black;
+    max-width: 700px;
+    top: 125px;
+    margin: 0 auto;
+    padding: 12px 25px 50px;
+    border-top: 5px solid rgba(255, 255, 255, 0.16);
+    background-color:#FFE3FE;
+
+    user-select: none;
+    z-index: 100;
+    position: relative;
+   
+  }
+  .taskname{
+     
+      text-align: left;
+      border-width:2px;
+      position: relative;
+      padding:5px;
+      margin-bottom: 10px;
+      cursor:pointer; 
+      box-sizing:border-box; 
+      height: 100%; 
+      width:60%;
+  }
+  .taskage{
+    text-align: left;
+    border-width:2px;
+    position: relative;
+    padding:5px;
+    margin-bottom: 10px;
+    cursor:pointer; 
+    box-sizing:border-box; 
+    height: 100%; 
+    width:60%;
+  }
+
+  .taskinput{
+    margin: 10;
+  
+    text-align: left;
+    border-width:2px;
+    position: relative;
+    padding:5px;
+    margin-bottom: 15px;
+    cursor:pointer; 
+    box-sizing:border-box; 
+    height: 100%; 
+    width:60%;
+  }
+  .btnSave{
+    color:#fff;
+  
+    text-align:left;
+      position:relative;
+      padding-left:10px;
+      border-width:2px;
+      padding:2%;
+      margin-bottom: 0;
+      box-sizing: border-box;
+      height:100%;
+      width:20%;
+      background-color:rgb(67, 196, 67);
+      margin-left: 5px;
+      font-weight: 200;
+      border-radius: 5px;
+  }
+  .btnTask{
+    color:#fff;
+      text-align:left;
+      position:relative;
+      padding-left:10px;
+      border-width:2px;
+      padding:2%;
+      margin-bottom: 0;
+      box-sizing: border-box;
+      border-radius: 5px;
+      height:100%;
+      width:20%;
+      background-color:rgb(69, 189, 69);
+      margin-left: 5px;
+      font-weight: 200;
+     
+    }
+  
+  
+  .header {
+    padding-bottom: 17px;
+  }
+  
+  .tasklist {
+    padding: 0.75rem 1.25rem;
+    
+    border: none;
+    color:black;
+    font-size: 19px;
+    font-weight: 200;
+    box-sizing: border-box;
+  }
+  
+  
+  .btnClear,
+  .btnClear:hover {
+    color: #fff;
+    float: right;
+   
+  }
+  h1 {
+      text-align: center;
+    margin: 0;
+    padding: 20px;
+    color: #1215d3;
+  }
+  
+  
+  .btnClear{
+      text-align:left;
+      font-weight:bold;
+   
+      font-weight: 200;
+      border-width:2px;
+      padding:2%;
+      margin-bottom: 0;
+      box-sizing: border-box;
+      height:100%;
+      width:17%;
+      background-color:rgb(236, 32, 32);
+      margin-left: 5px;
+      border-radius: 5px;
+  }
+
+  .deleteTask,
+  .editTask{
+      color:white;
+      text-align:center;
+      font-weight:bold;
+      position:relative;
+      font-weight: 200;
+      border-width:2px;
+      padding: 5px;
+      margin-bottom: 0;
+      box-sizing: border-box;
+      height:30px;
+      margin-left: 70%;
+      border-radius: 5px;
+      
+    }
+    .editTask{
+      background-color:rgb(49, 209, 44);
+      flex:right;
+      display: inline;
+      width:60px;
+    }
+    .deleteTask{
+    background-color:rgb(236, 58, 4);
+    margin-left: 100%;
+    width:70px;
+    }
+    .output{
+      width: 100%;
+      padding: 20px 0;
+    }
+    table{
+    margin:20px;
+    background: no-repeat;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display:inline;
+    }
+
+    
+    
+    
+    
+    
+
+
+  
+
+ 

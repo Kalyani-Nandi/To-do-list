@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo List</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>TO DO LIST</h1>
+    </div>
+        <div class="todo-inner">
+            <div id="form">
+                <input type="text" class="taskinput" placeholder="Enter your task" id="addtaskinput" />
+                <input type="text" class="taskname" placeholder="Enter Your Name" id="addnameinput" />
+                <input type="text" class="taskage" placeholder="Enter your Age" id="addageinput" />
+                <input type="hidden" id="saveindex">
+              
+                <button type="button" class="btnTask" id="addtaskbtn" name="Add Task">
+                Add Task
+                </button>
+                <button type="button" class="btnSave" id="savetaskbtn" style="display: none;">
+                Save Task
+                </button>
+                <button type="button" id="clearallbtn" class="btnClear">
+                Clear All
+                </button>
+            </div>
+            <div class="output">
+              <table class="  tasklist" id="addedtasklist" >
+                
+              </table>
+            </div>
+          
+        </div>
+    </div>
+  </section>
+
+  <script src="/index.js"></script>
+</body>
+
+</html>
